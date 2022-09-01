@@ -1,4 +1,3 @@
-// Get Min or Max String/Char
 String maxChar = Stream.of("H", "T", "D", "I", "J")
             .max(Comparator.comparing(String::valueOf))
             .get();
